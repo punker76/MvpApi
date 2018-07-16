@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 
 namespace MvpApi.Uwp.Helpers
 {

@@ -1,4 +1,5 @@
 ﻿using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 using Telerik.Data.Core;
 
 namespace MvpApi.Uwp.Common

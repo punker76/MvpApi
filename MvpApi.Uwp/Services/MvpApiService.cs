@@ -13,6 +13,7 @@ using Windows.Storage;
 using Windows.UI.Popups;
 using Windows.UI.Xaml.Media.Imaging;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 using MvpApi.Uwp.Helpers;
 using Newtonsoft.Json;
 

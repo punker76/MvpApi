@@ -1,6 +1,7 @@
 ﻿using System;
 using Windows.UI.Xaml.Data;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 
 namespace MvpApi.Uwp.Converters
 {

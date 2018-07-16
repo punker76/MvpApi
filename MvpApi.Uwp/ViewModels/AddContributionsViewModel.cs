@@ -15,6 +15,7 @@ using Windows.UI.Xaml.Navigation;
 using Microsoft.Services.Store.Engagement;
 using Microsoft.Toolkit.Uwp.Connectivity;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 using MvpApi.Uwp.Common;
 using MvpApi.Uwp.Dialogs;
 using MvpApi.Uwp.Extensions;

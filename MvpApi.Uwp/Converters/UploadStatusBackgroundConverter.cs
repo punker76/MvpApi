@@ -3,6 +3,7 @@ using Windows.UI;
 using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Media;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 
 namespace MvpApi.Uwp.Converters
 {

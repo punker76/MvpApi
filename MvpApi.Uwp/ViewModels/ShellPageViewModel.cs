@@ -8,6 +8,7 @@ using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
 using Microsoft.Toolkit.Uwp.Connectivity;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 using MvpApi.Uwp.Common;
 using MvpApi.Uwp.Helpers;
 using MvpApi.Uwp.Views;

@@ -1,0 +1,86 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netstandard2.0</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <None Remove="Images\4starStar.png" />
+      <None Remove="Images\CoffeeKudo.png" />
+      <None Remove="Images\DinnerKudo.png" />
+      <None Remove="Images\LunchKudo.png" />
+      <None Remove="Images\MvpIcon.png" />
+      <None Remove="Images\VideoAd.png" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="Images\4starStar.png" />
+      <Content Include="Images\CoffeeKudo.png" />
+      <Content Include="Images\DinnerKudo.png" />
+      <Content Include="Images\LunchKudo.png" />
+      <Content Include="Images\MvpIcon.png" />
+      <Content Include="Images\VideoAd.png" />
+    </ItemGroup>
+    <ItemGroup>
+        <PackageReference Include="Xamarin.Forms" Version="2.5.1.444934" />
+        <PackageReference Include="SkiaSharp" Version="1.59.3" />
+        <PackageReference Include="SkiaSharp.Views.Forms " Version="1.59.3" />
+    </ItemGroup>
+    <ItemGroup>
+        <Reference Include="Telerik.XamarinForms.Chart">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.Chart.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.Common">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.Common.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.DataControls">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.DataControls.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.DataGrid">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.DataGrid.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.Barcode">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.Barcode.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.ConversationalUI">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.ConversationalUI.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.DataVisualization">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.DataVisualization.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.Input">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.Input.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.Primitives">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.Primitives.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.XamarinForms.SkiaSharp">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.XamarinForms.SkiaSharp.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.Documents.SpreadsheetStreaming">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.Documents.SpreadsheetStreaming.dll</HintPath>
+        </Reference>
+        <Reference Include="Telerik.Zip">
+            <HintPath>C:\Program Files (x86)\Progress\Telerik UI for Xamarin R2 2018\Binaries\Portable\Telerik.Zip.dll</HintPath>
+        </Reference>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Condition=" '$(EnableDefaultCompileItems)' == 'true' " Update="App.xaml.cs">
+            <DependentUpon>*.xaml</DependentUpon>
+        </Compile>
+        <Compile Update="Common\RootPageMenuItem.cs">
+          <SubType>Code</SubType>
+        </Compile>
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\..\MvpApi.Common\MvpApi.Common.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <EmbeddedResource Update="Views\RootPage.xaml">
+        <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Views\RootPageDetail.xaml">
+        <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      </EmbeddedResource>
+      <EmbeddedResource Update="Views\RootPageMaster.xaml">
+        <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      </EmbeddedResource>
+    </ItemGroup>
+</Project>

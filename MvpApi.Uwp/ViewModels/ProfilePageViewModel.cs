@@ -4,6 +4,7 @@ using Windows.ApplicationModel;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Navigation;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 using MvpApi.Uwp.Helpers;
 using MvpApi.Uwp.Views;
 using Template10.Common;

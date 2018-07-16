@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Windows.UI.Popups;
 using MvpApi.Common.Models;
+using MvpApi.Common.ServiceModels;
 using Newtonsoft.Json;
 
 namespace MvpApi.Uwp.Extensions
